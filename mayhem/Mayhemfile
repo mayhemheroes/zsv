@@ -1,0 +1,6 @@
+project: zsv
+target: zsv-fuzz
+
+cmds:
+    - cmd: ./zsv-fuzz
+      libfuzzer: true
